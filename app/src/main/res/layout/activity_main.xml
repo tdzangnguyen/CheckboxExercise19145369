@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/c_chocolate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/chocolate_syrup"
+            android:textSize="24dp"
+            android:theme="@style/colored_checkBox" />
+
+        <CheckBox
+            android:id="@+id/c_sprinkles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/sprinkles"
+            android:textSize="24dp"
+            android:theme="@style/colored_checkBox" />
+
+        <CheckBox
+            android:id="@+id/c_crushed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="10dp"
+
+            android:text="@string/crushed_nuts"
+            android:textSize="24dp"
+            android:theme="@style/colored_checkBox" />
+
+        <CheckBox
+            android:id="@+id/c_cherries"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="10dp"
+
+            android:text="@string/cherries"
+            android:textSize="24dp"
+            android:theme="@style/colored_checkBox" />
+
+        <CheckBox
+            android:id="@+id/c_orlo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="10dp"
+
+            android:text="@string/orlo_cookie_crumbles"
+            android:textSize="24dp"
+            android:theme="@style/colored_checkBox" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="14dp"
+        android:onClick="Show"
+        android:padding="10dp"
+        android:text="Show Toast"
+        app:backgroundTint="#838080"
+        app:cornerRadius="6dp" />
+
+</LinearLayout>
